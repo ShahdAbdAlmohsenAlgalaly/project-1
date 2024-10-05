@@ -1,0 +1,820 @@
+
+body{
+padding: 0px;
+margin: 0px;
+}
+
+.page1{
+    position: relative;
+    background-image: url(img/photo.jpg.jpeg) ;
+    background-size: cover;
+    
+    height: 100vh;
+   
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand-name{
+font-size: 35px;
+font-weight: bold;
+color: black;
+padding: 30px 60px;
+display: flex;
+
+}
+.links{
+    display: flex;
+    list-style: none;
+    font-size: larger;
+}
+
+.links li {
+    margin-left: 20px;
+    padding: 5px 5px;
+    display: flex;
+}
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    font-size:25px;
+}
+.links a:hover{
+    color: rgb(70, 70, 255);
+    transition: all .3s;
+    cursor: pointer;
+    text-shadow:rgb(70, 70, 255) 2px 2px 10px ;
+}
+.login{
+    display: flex;
+    gap: 20px;
+    padding: 20px 100px;
+}
+.login1{
+border: 0px;
+color: rgb(70, 70, 255);
+background-color: white;
+padding: 3px 10px;
+background:none;
+margin: 10px;
+font-size: 20px;
+border-radius: 3px;
+}
+.login1 :hover{
+    background-color:rgb(70, 70, 255) ;
+    transition: all .1s;
+    cursor: pointer;
+    color: aliceblue;
+}
+.login1 a{
+    text-decoration: none;
+    color: rgb(70, 70, 255);
+    padding:12px 12px ;
+    border-radius: 3px;
+}
+.login2{
+ border: 0px;
+color: white;
+background-color:rgb(70, 70, 255) ;
+padding: 3px 25px;
+margin: 10px;
+font-size: 14px;
+border-radius: 3px;
+font-weight: bold;
+}
+.login2 a{
+    text-decoration: none;
+    color: white;
+}
+.login2:hover{
+    transition: all .1s;
+    cursor: pointer;
+    box-shadow: black 2px 2px 10px ;
+}
+.jion{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(70, 70, 255) ;
+    padding: 30px 0px 0px 65px;
+}
+.jion:hover{
+    color: rgb(89, 190, 252);
+    transition: all .1s;
+    cursor: pointer;
+}
+.Selling{
+    font-size: 80px;
+    font-weight: bold;
+    color: black;
+    padding: 0px 60px;
+}
+.button{
+   color: white;
+   font-size: 30px;
+   background-color:rgb(70, 70, 255) ;
+   border: 0px;
+   padding: 12px 30px;
+  margin: 10px 0px 0px 60px;
+  border-radius: 6px;
+}
+.button:hover{
+    transition: all .1s;
+    cursor: pointer;
+    box-shadow: black 2px 2px 10px ;
+}
+.know{
+    color: rgb(0, 0, 0);
+   font-size: 25px;
+   border: 0px;
+   padding: 0px 0px  25px 60px;
+}
+
+.pra{
+    display: flex;
+    background-color: rgb(3, 4, 29);
+    background-size: cover;
+    height: 100vh;
+}
+.pra h2{
+    color: white;
+    font-size: 40px;
+    padding: 160px 80px ;
+
+}
+.pra p{
+    font-size: 15px;
+    color: white;
+    position: relative;
+    right: 480px;
+    top:300px;
+    padding: 0px 30px;
+}
+.border hr{
+    background-color: red;
+    width: 110px;
+    height: 3px;
+    border: 0px;
+    padding: 0px;
+    position: relative;
+    left: 190px;
+    top:160px;
+}
+.pra button{
+    background: none;
+    color: rgb(28, 28, 244) ;
+    border: 0px;
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    right: 800px;
+    top:80px;
+}
+
+.box1{
+    background-color: white;
+    width: 200px;
+    height: 260px;
+    position: relative;
+    right: 400px;
+    top:60px;
+    max-width: 1100vh;
+    box-shadow: 0px  4px 8px black;
+}
+.box1 img{
+    background-color: red;
+    border-radius:4px ;
+    width: 50px;
+    position: relative;
+    right: 5px;
+    top: 20px;
+    width: 45px;
+    height: 50px;   
+}
+.box1 h3{
+    font-weight: bold;
+    position: relative;
+    right: 5px;
+    top: 12px;
+
+}
+.box1 hr{
+width: 50px;
+height: 1.5px;
+border: 0px;
+background-color: red;
+position: relative;
+right: 35px;
+top: 10px;
+}
+.gradual{
+    font-size: 15px;
+    position: relative;
+    right: 5px;
+    bottom: 7px;
+}
+.box2{
+    background-color: white;
+    width: 200px;
+    height: 260px;
+    position: relative;
+    right: 400px;
+    top:60px;
+    max-width: 1100vh;
+    box-shadow: 0px  4px 8px black;
+}
+.box2 img{
+    background-color: red;
+    border-radius:4px ;
+    width: 50px;
+    position: relative;
+    right: 5px;
+    top: 20px;
+    width: 45px;
+    height: 50px;
+}
+.box2 h3{
+font-weight: bold;
+    position: relative;
+    right: 5px;
+    top: 13px;
+    font-size: 17px;
+}
+.box2 hr{
+    width: 50px;
+    height: 1.5px;
+    border: 0px;
+    background-color: red;
+    position: relative;
+    right: 35px;
+    top: 10px;
+}
+.box3{
+    background-color: white;
+    width: 200px;
+    height: 260px;
+    position: relative;
+    right: 180px;
+    bottom:370px;
+    max-width: 1100vh;
+    box-shadow: 0px  4px 8px black;
+}
+.box3 img{
+    background-color: red;
+    border-radius:4px ;
+    width: 50px;
+    position: relative;
+    right: 5px;
+    top: 20px;
+    width: 45px;
+    height: 50px;
+}
+.box3 h3{
+    font-weight: bold;
+    position: relative;
+    right: 5px;
+    top: 13px;
+    font-size: 17px;
+}
+.box3 hr{
+    width: 50px;
+    height: 1.5px;
+    border: 0px;
+    background-color: red;
+    position: relative;
+    right: 35px;
+    top: 10px;
+}
+.page3{
+    display: flex;
+    background-color: rgb(3, 4, 29);
+    background-size: cover;
+    height: 100vh;  
+}
+.text h3{
+    color:rgb(28, 28, 244) ;
+    padding: 0px 190px;
+}
+.text h1 {
+    color: white;
+    padding: 0px 190px;
+}
+.text p{
+    color: white;
+    padding: 0px 190px;
+}
+.page3 a{
+    text-decoration: none;
+    color: rgb(28, 28, 244);
+    font-size: 20px;
+    position: relative;
+    left: 190px;
+    
+}
+.page3 a:hover{
+    color: rgb(89, 190, 252);
+    transition: all .1s;
+    cursor: pointer;
+}
+
+.card1{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    right: 660px;
+    top: 230px;
+    border-radius: 4px;
+    text-align: center;
+}
+.stars{
+    font-size: 30px;
+    color: #ffdd00;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+}
+.card p{
+    padding: 0px 35px;
+    font-size: 20px;
+    
+    
+}
+.card2{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    right: 364px;
+    top: -70px;
+    border-radius: 4px;   
+    text-align: center;
+}
+.card3{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    position: relative;
+    right: 67px;
+    bottom: 370px;
+    border-radius: 4px;   
+    text-align: center;
+}
+
+.page4{
+    display: flex;
+    background-color: rgb(3, 4, 29);
+    background-size: cover;
+    height: 100vh;
+}
+.graphic{
+
+    display: flex;
+    justify-content: center;
+    padding: 200PX 5PX;
+    position: relative;
+    right:30px;
+    bottom:128px;
+}
+
+
+.graphic1{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    right: 210px;
+    top: 70px;
+    border-radius: 5px;
+}
+.graphic1 img{
+    width: 300px;
+    height: 200px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.graphic1 h3{
+    color: rgb(28, 28, 244) ;
+    padding:0px 30px ;
+}
+.graphic1 h2{
+    color: black;
+    padding: 0px 30px ;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 46px;
+}
+.graphic1 p{
+     color: rgb(0, 0, 0);
+     font-size: 17px;
+     margin: 0px;
+     padding: 0px 30px;
+     position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic1 h5{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    position: relative;
+     left: 0px;
+     bottom: 20px;
+}
+.price{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.discount{
+color: green;
+font-weight: bold;
+}
+.min{
+    color: black;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 20px 20px;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic1 button{
+    border: 2px rgb(28, 28, 244) solid;
+    border-radius: 20px;
+    padding: 13px;
+    position: relative;
+    left: 30px;
+    bottom:4px;
+    background: none;
+
+}
+.graphic1 button:hover{
+    background-color: rgb(28, 28, 244);
+    transition: all .1s;
+    cursor: pointer;
+}
+.graphic1 h6{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 238px;
+    bottom: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graphic2{
+    background-color: white;
+    width:300px ;
+    height: 600px;
+    position: relative;
+    right:120px;
+    top: 70px;
+    border-radius: 5px;
+}
+.graphic2 img{
+    width: 300px;
+    height: 200px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.graphic2 h3{
+    color: rgb(28, 28, 244) ;
+    padding:0px 30px ;
+}
+.graphic2 h2{
+    color: black;
+    padding: 0px 30px ;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 46px;
+}
+.graphic2 p{
+     color: rgb(0, 0, 0);
+     font-size: 17px;
+     margin: 0px;
+     padding: 0px 30px;
+     position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic2 h5{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    position: relative;
+     left: 0px;
+     bottom: 20px;
+}
+.price{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.discount{
+color: green;
+font-weight: bold;
+}
+.min{
+    color: black;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 20px 20px;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic2 button{
+    border: 2px rgb(28, 28, 244) solid;
+    border-radius: 20px;
+    padding: 13px;
+    position: relative;
+    left: 30px;
+    bottom:4px;
+    background: none;
+
+}
+.graphic2 button:hover{
+    background-color: rgb(28, 28, 244);
+    transition: all .1s;
+    cursor: pointer;
+}
+.graphic2 h6{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 238px;
+    bottom: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graphic3{
+    background-color: white;
+    width:300px ;
+    height: 600px;
+    position: relative;
+    right:20px;
+    top: 70px;
+    border-radius: 5px;
+}
+.graphic3 img{
+    width: 300px;
+    height: 200px; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.graphic3 h3{
+    color: rgb(28, 28, 244) ;
+    padding:0px 30px ;
+}
+.graphic3 h2{
+    color: black;
+    padding: 0px 30px ;
+    margin: 0px;
+    position: relative;
+    left: 0px;
+    bottom: 46px;
+}
+.graphic3 p{
+     color: rgb(0, 0, 0);
+     font-size: 17px;
+     margin: 0px;
+     padding: 0px 30px;
+     position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic3 h5{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    position: relative;
+     left: 0px;
+     bottom: 20px;
+}
+.price{
+    color: black;
+    margin: 0px;
+    padding: 10px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.discount{
+color: green;
+font-weight: bold;
+}
+.min{
+    color: black;
+    margin-top: 20px;
+    font-size: 14px;
+    padding: 20px 20px;
+    position: relative;
+     left: 0px;
+     bottom: 27px;
+}
+.graphic3 button{
+    border: 2px rgb(28, 28, 244) solid;
+    border-radius: 20px;
+    padding: 13px;
+    position: relative;
+    left: 30px;
+    bottom:4px;
+    background: none;
+
+}
+.graphic3 button:hover{
+    background-color: rgb(28, 28, 244);
+    transition: all .1s;
+    cursor: pointer;
+}
+.graphic3 h6{
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+    width: 50px;
+    height: 20px;
+    position: relative;
+    left: 238px;
+    bottom: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page4 a{
+    text-decoration: none;
+    color: rgb(28, 28, 244);
+    font-size: 20px;
+}
+.page4 a:hover{
+    color: rgb(89, 190, 252);
+    transition: all .1s;
+    cursor: pointer;
+}
+.Watch{
+    color: white;
+    /* position: relative;
+    left: 60px;
+    top: 30px; */
+}
+.problem{
+    color: white;
+    /* position: relative;
+    right:200px;
+    top:90px */
+}
+.test{
+    padding: 200PX 5PX;
+    position: relative;
+    left:180px;
+    bottom:237px;
+}
+.page5{
+    display: flex;
+    background-color: rgb(3, 4, 29);
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.all{
+position: relative;
+    left:350px;
+    bottom:400px;
+    
+
+}
+.text5{
+    text-align: center;
+    font-size: 25px;
+    }
+.text5 a:hover{
+    color: rgb(89, 190, 252);
+    transition: all .1s;
+    cursor: pointer;
+}
+.text5 a {
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+    margin-bottom: 5px;
+
+    
+}
+.text5 h1{
+    color: white;
+    font-size: 80px;
+    margin: 20px;
+}
+.text5 p{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    width: 590px;
+    height:30px;
+    left: 100px;
+    margin-right: 0px;
+}
+
+.subscribe button {
+    padding: 17px 20px;
+    font-size: 16px;
+    background-color: #00a3ff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    margin-left: 0px;
+    position: relative;
+    right:10px;
+    /* cursor: pointer; */
+}
+
+.subscribe button:hover {
+    background-color: #007bbd;
+}
+.footer1{
+    padding: 50px 20px;
+    display: flex;
+    position: relative;
+    right: 870PX;
+    top: 250px;
+    color: white;
+}
+.first{
+    position: relative;
+    right: 10px;
+}
+.first p{
+    font-size: 20px;
+}
+.Company {
+    position: relative;
+    left: 300px; 
+}
+.Company p{
+    font-size: 20px;
+}
+.Features{
+    position: relative;
+    left: 590px;
+}
+.Features p{
+    font-size: 20px;
+}
+.Resources{
+    position: relative;
+    left: 780px;
+}
+.fab{
+  padding: 0px 30px 0px 0px;
+  color: rgb(28, 28, 244) ;
+}
+.first a:hover{
+    color: rgb(89, 190, 252);
+    transition: all .1s;
+    cursor: pointer;
+    
+}
